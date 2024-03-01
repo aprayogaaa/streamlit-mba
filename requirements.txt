@@ -1,0 +1,7 @@
+streamlit==1.25.0
+streamlit_option_menu==0.3.6
+pandas==2.0.3
+numpy==1.23.3
+altair==5.0.1
+mlxtend==0.21.0
+datetime
