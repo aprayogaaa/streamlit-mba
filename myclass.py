@@ -53,7 +53,7 @@ class PreparationData:
             if x > 0:
                 return 1
             
-        grouping_item = grouping_item.map(one_hot_encoding)
+        grouping_item = grouping_item.applymap(one_hot_encoding)
         return grouping_item
 
 class ShowDataStatistics:
